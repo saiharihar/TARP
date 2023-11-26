@@ -22,7 +22,7 @@ const Signup = () => {
   const handleSubmit = async(e)=>{
     e.preventDefault();
     const {name, email, password} = formData;
-    const response = await fetch("http://ethnus-backend-gcki.onrender.com:5000/api/auth/createuser", {
+    const response = await fetch("https://ethnus-backend-gcki.onrender.com/api/auth/createuser", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
