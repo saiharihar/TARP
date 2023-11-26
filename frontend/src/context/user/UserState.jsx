@@ -2,7 +2,7 @@ import UserContext from "./userContext";
 import { useState } from "react";
 
 const UserState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "https://ethnus-backend-gcki.onrender.com"
   
   const notesInitial = []
   const [user, setUser] = useState(notesInitial)

@@ -2,7 +2,7 @@ import BookContext from "./bookContext";
 import { useState } from "react";
 
 const BookState = (props) => {
-  const host = "http://localhost:5000"
+  const host = "https://ethnus-backend-gcki.onrender.com"
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial)
 
